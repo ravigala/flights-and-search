@@ -32,3 +32,11 @@
 ```
 npx sequelize model:generate --name Airport --attributes name:String,address:String,cityId:integer
 ```
+
+To add a new seeder file
+```
+npx sequelize seed:generate --name add-airplanes
+```
+
+To seed the data into database
+```npx sequelize db:seed:all```
